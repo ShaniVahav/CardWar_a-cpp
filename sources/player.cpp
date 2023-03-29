@@ -4,5 +4,7 @@
 
 #include "player.hpp"
 
-string Player::cardesTaken(){return ""; }
-string Player::stacksize() {return ""; }
+string Player::getName() {return "";}
+void Player::setName(string newName) {}
+int Player::cardesTaken(){return 0; }
+int Player::stacksize() {return 0; }

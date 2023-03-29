@@ -6,6 +6,7 @@
 #define CARDWAR_A_GAME_H
 #include "player.hpp"
 #include <string>
+#include <iostream>
 using namespace std;
 
 namespace ariel {}

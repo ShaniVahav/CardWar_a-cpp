@@ -3,6 +3,7 @@
 //
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Player{
@@ -18,6 +19,8 @@ class Player{
       this->_name = std::move(name);
     };
 
-        string stacksize();
-        string cardesTaken();
+        string getName();
+        void setName(string newName);
+        int stacksize();
+        int cardesTaken();
 };
